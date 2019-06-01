@@ -1,0 +1,260 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: "Caviar Dreams";
+}
+
+body {
+	background-color: #1a0033;
+	color: white;
+}
+
+p {
+	font-weight: bold;
+	letter-spacing: 3px;
+}
+
+.updatedate {
+	font-family: "Neuropol";
+}
+
+h3 {
+	font-family: "Neuropol";
+}
+
+h2 {
+	font-family: "Full Pack 2025";
+	letter-spacing: 10px;
+}
+
+h1 {
+	font-family: "Quantum";
+}
+
+@font-face {
+    font-family: 'Quantum';
+    src: url('fonts/quantum-font/quantum-webfont.woff2') format('woff2'),
+         url('fonts/quantum-font/quantum-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Full Pack 2025';
+    src: url('fonts/fullpack2025-font/full_pack_2025-webfont.woff2') format('woff2'),
+         url('fonts/fullpack2025-font/full_pack_2025-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neuropol';
+    src: url('fonts/neuropol-font/neuropol-webfont.woff2') format('woff2'),
+         url('fonts/neuropol-font/neuropol-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Caviar Dreams';
+    src: url('fonts/caviardreams-font/caviardreams-webfont.woff2') format('woff2'),
+         url('fonts/caviardreams-font/caviardreams-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#logohead {
+	float: left;
+	width: 50%;
+	background: none;
+}
+
+#header {
+	background-image: url("images/galaxy.jpg");
+	background-size: 100% 100px;
+	height: 100px;
+	width: 100%;
+	line-height: 100px;
+}
+
+#sitename {
+	text-align: center;
+	font-family: Quantum;
+	font-size: 75px;
+	color: black;
+}
+
+#logo {
+	height: 75px;
+	width: 75px;
+}
+
+#nav {
+	list-style: none;
+	float: right;
+	width: 50%;
+}
+
+#navlist li {
+	display: inline;
+	font-size: 150%;
+	font-weight: bolder;
+	line-height: 50%;
+	margin: 0 20px;
+}
+
+#navlist a {
+	color: black;
+	text-decoration: none;
+}
+
+#navlist a:hover {
+	color: blue;
+}
+
+#intro {
+	text-align: center;
+	max-width: 55%;
+	margin: auto;
+	margin-top: 30px;
+	line-height: 250%;
+	height: 600px;
+	background-image: url("images/darksamusstock.png");
+	background-size: 100% 100%;
+	
+}
+
+#introhead {
+	font-size: 50px;
+	color: powderblue;
+	line-height: 500%;
+}
+
+#introtext {
+	background-color: rgba(26, 0, 51, 0.5);
+}
+
+#leftside {
+	float: left;
+	width: 13%;
+	height: 100%;
+}
+
+#leftsidecontent li {
+	list-style: none;
+	line-height: 300%;
+	font-size: 20px;
+	font-family: "Neuropol";
+}
+
+#leftsidecontent a {
+	text-decoration: none;
+}
+
+#leftsidecontent {
+	margin: auto;
+	padding-top: 20px;
+	text-align: center;
+}
+
+#linkslist li {
+	font-size: 25px;
+	letter-spacing: 3px;
+}
+
+#youtube {
+	color: red;
+}
+
+#twitter {
+	color: lightblue;
+}
+
+#facebook {
+	color: #bf80ff;
+}
+
+#linkslist a:hover {
+	color: black;
+}
+
+#rightside {
+	float: right;
+	width: 20%;
+	height: 100%;
+	background-color: #28004d;
+}
+
+#rightsidecontent {
+	padding-top: 20px;
+	text-align: center;
+}
+
+#navigation img {
+	float: right;
+	display: block;
+	width: 3.75%;
+	margin: 0 auto;
+	margin-top: 500px;
+	border-radius: 35%;
+	background-color: white;
+	padding: 5px;
+	position: fixed;
+}
+
+#navigation img:hover {
+	background-color: black;
+}
+
+#content {
+	margin: 0 auto;
+}
+
+#aboutcontent {
+	max-width: 67%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#aboutcontent h3 {
+	font-size: 40px;
+}
+
+#aboutcontent ul {
+	list-style: none;
+	font-size: 25px;
+}
+
+#aboutimage {
+	width: 500px;
+	height: 500px;
+	margin: auto;
+}
+
+#footer {
+	display: block;
+	background-color: black;
+	height: 200px;
+	width: 100%;
+	clear: both;
+}
+
+.footcol {
+	min-width: 50%;
+	text-align: center;
+}
+
+#col1 {
+	float: left;
+	height: 100%;
+}
+
+#col2 {
+	float: right;
+}
+
+#thanks {
+	display: block;
+	font-size: 200%;
+	padding-top: 50px;
+}
